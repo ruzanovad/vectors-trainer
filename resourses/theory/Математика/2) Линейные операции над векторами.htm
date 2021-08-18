@@ -1,0 +1,1060 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List
+href="2)%20Линейные%20операции%20над%20векторами.files/filelist.xml">
+<link rel=Edit-Time-Data
+href="2)%20Линейные%20операции%20над%20векторами.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Павел</o:Author>
+  <o:LastAuthor>Павел</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>13</o:TotalTime>
+  <o:Created>2020-01-06T16:58:00Z</o:Created>
+  <o:LastSaved>2020-01-06T16:59:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>298</o:Words>
+  <o:Characters>1703</o:Characters>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>1998</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="2)%20Линейные%20операции%20над%20векторами.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="2)%20Линейные%20операции%20над%20векторами.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>146</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>5,5 пт</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>RU</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-priority:35;
+	mso-style-qformat:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Текст выноски";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:2093549835;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1067703858 473959260 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-weight:bold;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:90.0pt;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:198.0pt;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:306.0pt;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>К
+линейным операциям относятся операции сложения и вычитания векторов, умножение
+вектора на число. Рассматривать будем лишь свободные векторы. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Напомним
+два правила сложения векторов. Пусть даны три вектора <b style='mso-bidi-font-weight:
+normal'>a,</b> <b style='mso-bidi-font-weight:normal'>b,</b> <b
+style='mso-bidi-font-weight:normal'>c</b> (рис. 1).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>a)
+<b style='mso-bidi-font-weight:normal'><u>Правило треугольника</u></b>. От
+произвольно выбранной точки откладываем вектор, равный вектору <b
+style='mso-bidi-font-weight:normal'>а</b>; от его конца откладываем вектор,
+равный вектору <b style='mso-bidi-font-weight:normal'>b</b>; строим вектор,
+начало которого совпадает с началом первого вектора, а конец – с концом второго
+вектора, это и есть <span class=GramE>вектор</span> <b style='mso-bidi-font-weight:
+normal'>а + b</b> (рис. 1а). Аналогично получается сумма любого конечного числа
+векторов (рис. 1б).<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Рисунок_x0020_16" o:spid="_x0000_i1030" type="#_x0000_t75"
+ style='width:221.25pt;height:63.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image001.png"
+  o:title="" cropbottom="2979f"/>
+</v:shape><![endif]--><![if !vml]><img width=295 height=85
+src="2)%20Линейные%20операции%20над%20векторами.files/image002.jpg" v:shapes="Рисунок_x0020_16"><![endif]></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoCaption align=center style='text-align:center;text-indent:35.45pt'>Рис.
+1</p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Рисунок_x0020_2" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:176.25pt;
+ height:90pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image003.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=235 height=120
+src="2)%20Линейные%20операции%20над%20векторами.files/image004.jpg" v:shapes="Рисунок_x0020_2"><![endif]></span></p>
+
+<p class=MsoCaption align=center style='text-align:center;text-indent:35.45pt'>Рис.
+1а</p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_7"
+ o:spid="_x0000_i1028" type="#_x0000_t75" style='width:191.25pt;height:92.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image005.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=255 height=123
+src="2)%20Линейные%20операции%20над%20векторами.files/image006.jpg" v:shapes="Рисунок_x0020_7"><![endif]></span></p>
+
+<p class=MsoCaption align=center style='text-align:center;text-indent:35.45pt'>Рис.
+1б</p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>б)
+<b style='mso-bidi-font-weight:normal'><u>Правило параллелограмма</u></b>. От
+произвольно выбранной точки откладываем оба вектора-слагаемые <b
+style='mso-bidi-font-weight:normal'>а</b> и <b style='mso-bidi-font-weight:
+normal'>b</b>; на этих двух векторах, как на сторонах, строим параллелограмм.
+Направленная диагональ этого параллелограмма, выходящая из общего начала
+векторов <b style='mso-bidi-font-weight:normal'>а</b> и <b style='mso-bidi-font-weight:
+normal'>b</b> представляет <span class=GramE>вектор</span> <b style='mso-bidi-font-weight:
+normal'>а + b</b> (рис. 2)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_10"
+ o:spid="_x0000_i1027" type="#_x0000_t75" style='width:219pt;height:92.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image009.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=292 height=123
+src="2)%20Линейные%20операции%20над%20векторами.files/image007.jpg" v:shapes="Рисунок_x0020_10"><![endif]></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoCaption align=center style='text-align:center;text-indent:35.45pt'>Рис.
+2</p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Разностью векторов</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+<b style='mso-bidi-font-weight:normal'>а</b> и <b style='mso-bidi-font-weight:
+normal'>b</b> называется вектор <b style='mso-bidi-font-weight:normal'>m = </b></span><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>a</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'> – </span></b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:
+"Times New Roman","serif";mso-ansi-language:EN-US'>b</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+такой, что <b style='mso-bidi-font-weight:normal'>b + m = a</b> (рис 3). На
+рис. 2 вектор <b style='mso-bidi-font-weight:normal'>m </b></span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;
+mso-symbol-font-family:Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:
+Symbol'>=</span></span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+a </span></b><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:150%;font-family:Symbol;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>-</span></span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+b</span></b><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+есть другая диагональ параллелограмма с направлением от конца вектора <b
+style='mso-bidi-font-weight:normal'>b</b> к концу вектора а. Заметим, что
+вектор </span><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>-</span></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>b
+является противоположным вектору <b style='mso-bidi-font-weight:normal'>b</b>.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_18"
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:158.25pt;height:91.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image011.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=211 height=122
+src="2)%20Линейные%20операции%20над%20векторами.files/image008.jpg" v:shapes="Рисунок_x0020_18"><![endif]></span><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p></o:p></span></p>
+
+<p class=MsoCaption align=center style='text-align:center;text-indent:35.45pt'>Рис.
+3</p>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Произведением</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+<span class=GramE>вектора</span> <b style='mso-bidi-font-weight:normal'>а</b>
+на число <b style='mso-bidi-font-weight:normal'>&#955;</b> называется вектор <span
+class=SpellE><b style='mso-bidi-font-weight:normal'>&#955;а</b></span>, 1)
+коллинеарный<i style='mso-bidi-font-style:normal'> </i>вектору <b
+style='mso-bidi-font-weight:normal'>а</b>, 2) имеющий длину <b
+style='mso-bidi-font-weight:normal'>|</b></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>l</span></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>|</span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>&times;</span></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>|a|</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>,
+3) направленный так же, как вектор <b style='mso-bidi-font-weight:normal'>а</b>,
+если <b style='mso-bidi-font-weight:normal'>&#955; &gt; 0</b>, и
+противоположно, если <b style='mso-bidi-font-weight:normal'>&#955; &lt; 0</b>
+(рис. 4) .<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_24"
+ o:spid="_x0000_i1025" type="#_x0000_t75" style='width:153.75pt;height:89.25pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image013.png"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=205 height=119
+src="2)%20Линейные%20операции%20над%20векторами.files/image010.jpg" v:shapes="Рисунок_x0020_24"><![endif]></span></b></p>
+
+<p class=MsoCaption align=center style='text-align:center;text-indent:35.45pt'>Рис.
+4</p>
+
+<p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Орт вектора а</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+– единичный вектор, имеющий то же направление, что и <b style='mso-bidi-font-weight:
+normal'>а</b>; обозначается <b style='mso-bidi-font-weight:normal'>а&ordm;</b>.
+Отметим важное равенство: <b style='mso-bidi-font-weight:normal'>a </b></span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;
+mso-symbol-font-family:Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:
+Symbol'>=</span></span></b><span style='font-size:12.0pt;line-height:150%;
+font-family:"Times New Roman","serif"'> <span class=SpellE><b style='mso-bidi-font-weight:
+normal'>a</b></span></span><!--[if gte msEquation 12]><m:oMath><b
+ style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+ style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+ mso-bidi-font-family:"Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+    m:val="bi"/></m:rPr>°</m:r></span></i></b></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:4.5pt;height:16.5pt'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image021.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=6 height=22
+src="2)%20Линейные%20операции%20над%20векторами.files/image012.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;
+mso-symbol-font-family:Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:
+Symbol'>&times;</span></span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>|
+a |</span></b><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+, т.е. любой вектор может быть представлен в виде произведения его орта на
+число, равное его модулю, откуда получаем формулу для нахождения орта вектора:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><!--[if gte msEquation 12]><m:oMath><b
+ style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+ style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+ mso-bidi-font-family:"Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+    m:val="bi"/></m:rPr>a</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>°=</m:r></span></i></b><m:f><m:fPr><span
+   style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+   font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+   font-weight:bold;mso-bidi-font-weight:normal;font-style:italic;mso-bidi-font-style:
+   normal'><m:ctrlPr></m:ctrlPr></span></m:fPr><m:num><b style='mso-bidi-font-weight:
+   normal'><i style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;
+   line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+   "Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>a</m:r></span></i></b></m:num><m:den><b
+   style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+   style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+   mso-bidi-font-family:"Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+      m:val="bi"/></m:rPr>|</m:r><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="bi"/></m:rPr>a</m:r><m:r><m:rPr><m:scr
+      m:val="roman"/><m:sty m:val="bi"/></m:rPr>|</m:r></span></i></b></m:den></m:f></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:10.5pt;mso-text-raise:
+-10.5pt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:38.25pt;height:23.25pt'>
+ <v:imagedata src="2)%20Линейные%20операции%20над%20векторами.files/image023.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=51 height=31
+src="2)%20Линейные%20операции%20над%20векторами.files/image014.png" v:shapes="_x0000_i1025"><![endif]></span><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Свойства линейных операций над
+векторами<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:-1.0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Сложение коммутативно: <b
+style='mso-bidi-font-weight:normal'>а + b = b + а</b>. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Сложение ассоциативно: <b
+style='mso-bidi-font-weight:normal'>а + (b + с) = (а + b) + <span class=GramE>с</span>.
+<o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>а
++ 0 = а. <o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Дистрибутивность: <b
+style='mso-bidi-font-weight:normal'>(&#955;1 + &#955;2) а = &#955;<span
+class=GramE>1</span> а + &#955;2 а</b>.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Дистрибутивность: <b
+style='mso-bidi-font-weight:normal'>&#955; (а + b) = &#955; а + &#955; b. <o:p></o:p></b></span></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>1</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:Symbol;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;
+mso-symbol-font-family:Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:
+Symbol'>&times;</span></span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+a </span></b><b style='mso-bidi-font-weight:normal'><span style='font-size:
+12.0pt;line-height:150%;font-family:Symbol;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Symbol'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Symbol'>=</span></span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+<span class=SpellE>a</span>.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;text-align:justify;
+text-indent:35.45pt;line-height:150%;mso-list:l0 level1 lfo2;tab-stops:0cm'><![if !supportLists]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif";mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span></b><![endif]><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Вектор <span class=GramE><b
+style='mso-bidi-font-weight:normal'>–а</b></span>, противоположный вектору <b
+style='mso-bidi-font-weight:normal'>а</b>, можно представить в виде:<b
+style='mso-bidi-font-weight:normal'> </b></span><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>-</span></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'> a </span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>=</span></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'> (</span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>-</span></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'> 1) </span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;line-height:150%;font-family:Symbol;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Symbol'><span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'>&times;</span></span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'> a</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>.
+<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

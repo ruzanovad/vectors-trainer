@@ -1,0 +1,47 @@
+@font-face {
+font-family : "Comic Sans MS";
+src; url("Comic Sans MS.ttf");
+font-size: 4em;
+}
+body {
+font-family : "Comic Sans MS", serif;
+}
+.center {
+float : top;
+margin-left : auto;
+margin-right : auto;
+}
+.empty {
+background : #C0C0C0;
+}
+.invalid {
+background: #4C514A;
+}
+div{
+display: flex;
+align-items : stretch;
+}
+div.table {
+flex-direction: column;
+padding : 5px;
+justify-content: center;
+}
+div.flexible {
+align-items: center;
+justify-content: center;
+}
+img, table {
+border: 2px dashed #cc7722;
+box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+img {
+width: 70%;
+height: 70%;
+border-radius : 20px 20px 20px 20px;
+}
+font {
+color : red;
+}
+div.row {
+flex-direction : row;
+}

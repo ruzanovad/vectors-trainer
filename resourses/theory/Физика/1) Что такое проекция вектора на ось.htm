@@ -1,0 +1,987 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List
+href="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/filelist.xml">
+<link rel=Edit-Time-Data
+href="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Павел</o:Author>
+  <o:LastAuthor>Павел</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>6</o:TotalTime>
+  <o:Created>2019-11-09T05:10:00Z</o:Created>
+  <o:LastSaved>2019-11-09T05:16:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>300</o:Words>
+  <o:Characters>1712</o:Characters>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2008</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>150</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>5,5 пт</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>RU</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-noshow:yes;
+	mso-style-priority:35;
+	mso-style-qformat:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	mso-fareast-language:EN-US;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+span.a
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Текст выноски";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Пусть
+<span class=GramE>даны</span> вектор </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr
+    m:val="&#8407;"/><span style='font-size:12.0pt;mso-ansi-font-size:12.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+   "Times New Roman";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;
+ height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'><span
+style='mso-spacerun:yes'> </span>и ось X. Предполагается, что на оси X имеется
+масштаб, позволяющий измерять длины отрезков и присваивать им размерность
+вектора </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr m:val="&#8407;"/><span
+   style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+   font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+   font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>. Из начала и конца
+вектора </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr m:val="&#8407;"/><span
+   style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+   font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+   font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'><span
+style='mso-spacerun:yes'> </span>опустим перпендикуляры на ось X; тогда A и B —
+основания этих перпендикуляров (рис. 1). Длину отрезка AB обозначим |AB|.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%;
+page-break-after:avoid'><span style='font-size:12.0pt;line-height:150%;
+font-family:"Times New Roman","serif";mso-fareast-language:RU;mso-no-proof:
+yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_4" o:spid="_x0000_i1027"
+ type="#_x0000_t75" alt="рис 1" style='width:341.25pt;height:169.5pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image003.png"
+  o:title="рис 1"/>
+</v:shape><![endif]--><![if !vml]><img width=455 height=226
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image005.jpg"
+alt="рис 1" v:shapes="Рисунок_x0020_4"><![endif]></span></p>
+
+<p class=MsoCaption align=center style='text-align:center'>Рис. <!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>SEQ Рис. \* ARABIC <span style='mso-element:
+field-separator'></span><![endif]--><span style='mso-no-proof:yes'>1</span><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--><span style='font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Определение.</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>
+Проекция <span class=SpellE>a<sub>x</sub></span> вектора </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr
+    m:val="&#8407;"/><span style='font-size:12.0pt;mso-ansi-font-size:12.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+   "Times New Roman";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'><span
+style='mso-spacerun:yes'> </span>на ось X равна длине отрезка AB, взятой со
+знаком плюс, если угол &#981; между вектором </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr
+    m:val="&#8407;"/><span style='font-size:12.0pt;mso-ansi-font-size:12.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+   "Times New Roman";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'><span
+style='mso-spacerun:yes'> </span>и осью X является острым, и взятой
+соответственно со знаком минус, если &#981; тупой (или развёрнутый). Если угол &#981;
+прямой, то <span class=SpellE>a<sub>x</sub></span> = 0.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Говоря
+иначе, имеем следующую формулу:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%;
+tab-stops:86.4pt'><span class=GramE><span lang=EN-US style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif";mso-ansi-language:EN-US'>a<sub>x</sub></span></span><span
+lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
+mso-ansi-language:EN-US'> = </span><!--[if gte msEquation 12]><m:oMath><m:d><m:dPr><m:begChr
+    m:val="{"/><m:endChr m:val=""/><span style='font-size:12.0pt;mso-ansi-font-size:
+   12.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";
+   mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:"Cambria Math";
+   mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US;font-style:
+   italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><m:eqArr><m:eqArrPr><span
+     style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+     font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+     mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+     mso-ansi-language:EN-US;font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:eqArrPr><m:e><m:d><m:dPr><m:begChr
+        m:val="|"/><m:endChr m:val="|"/><span style='font-size:12.0pt;
+       mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";
+       mso-ascii-font-family:"Cambria Math";mso-hansi-font-family:"Cambria Math";
+       mso-bidi-font-family:"Times New Roman"'><m:ctrlPr></m:ctrlPr></span></m:dPr><m:e><span
+       lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+       mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+          m:val="roman"/><m:sty m:val="p"/></m:rPr>AB</m:r></span></m:e></m:d><span
+     lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr>, </m:r></span><span
+     style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+        m:val="p"/></m:rPr>если</m:r></span><span style='font-size:12.0pt;
+     line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+     "Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+        m:val="p"/></m:rPr> </m:r></span><span style='font-size:12.0pt;
+     line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+     "Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="p"/></m:rPr>&#966;</m:r></span><span
+     style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr> </m:r><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr><span lang=EN-US>&lt; 90</span></m:r><m:r><i
+      style='mso-bidi-font-style:normal'><span lang=EN-US>;</span></i></m:r></span></m:e><m:e><span
+     lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr>-</m:r><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr>|AB|, </m:r></span><span
+     style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+        m:val="p"/></m:rPr>если</m:r></span><span style='font-size:12.0pt;
+     line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+     "Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+        m:val="p"/></m:rPr> </m:r></span><span style='font-size:12.0pt;
+     line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+     "Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="p"/></m:rPr>&#966;</m:r></span><span
+     style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr> </m:r><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr><span lang=EN-US>&gt; 90</span></m:r></span></m:e><m:e><span
+     lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr>0, </m:r></span><span
+     style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+        m:val="p"/></m:rPr>если</m:r></span><span style='font-size:12.0pt;
+     line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+     "Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr m:val="roman"/><m:sty
+        m:val="p"/></m:rPr> </m:r></span><span style='font-size:12.0pt;
+     line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+     "Times New Roman"'><m:r><m:rPr><m:scr m:val="roman"/><m:sty m:val="p"/></m:rPr>&#966;</m:r></span><span
+     style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+     mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr> </m:r><m:r><m:rPr><m:scr
+        m:val="roman"/><m:sty m:val="p"/></m:rPr><span lang=EN-US>= 90;</span></m:r></span></m:e></m:eqArr></m:e></m:d><i
+ style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
+ line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman";
+ mso-ansi-language:EN-US'><m:r>;</m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:19.5pt;mso-text-raise:
+-19.5pt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:116.25pt;height:44.25pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image006.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=155 height=59
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image009.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span lang=EN-US
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif";
+mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Рисунок
+2 иллюстрирует все эти возможности.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;page-break-after:avoid'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_2"
+ o:spid="_x0000_i1026" type="#_x0000_t75" alt="рис 2" style='width:363pt;
+ height:108.75pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image007.png"
+  o:title="рис 2" croptop="2039f"/>
+</v:shape><![endif]--><![if !vml]><img width=484 height=145
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image010.jpg"
+alt="рис 2" v:shapes="Рисунок_x0020_2"><![endif]></span></p>
+
+<p class=MsoCaption align=center style='text-align:center'>Рис. <!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>SEQ Рис. \* ARABIC <span style='mso-element:
+field-separator'></span><![endif]--><span style='mso-no-proof:yes'>2</span><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Следствие 1</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>.
+Если угол между вектором </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr
+    m:val="&#8407;"/><span style='font-size:12.0pt;mso-ansi-font-size:12.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+   "Times New Roman";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'><span
+style='mso-spacerun:yes'> </span>и осью X равен &#981;, то проекция <span
+class=SpellE>a<sub>x</sub></span> вычисляется по формуле:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%;
+tab-stops:86.4pt'><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+   font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+   font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>x</m:r></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+ 150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>
+  = </m:r><m:r>acos</m:r><m:r> </m:r><m:r>&#981;</m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:69pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image011.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=92 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image012.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>. (1)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Здесь,
+как обычно, a = |</span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr
+    m:val="&#8407;"/><span style='font-size:12.0pt;mso-ansi-font-size:12.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+   "Times New Roman";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>| — модуль вектора </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr
+    m:val="&#8407;"/><span style='font-size:12.0pt;mso-ansi-font-size:12.0pt;
+   mso-bidi-font-size:12.0pt;font-family:"Cambria Math","serif";mso-ascii-font-family:
+   "Cambria Math";mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:
+   "Times New Roman";font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>. Действительно, если &#981;
+&lt; 90&#9702;, то формула (1) даёт длину красного отрезка на рис.2. Если &#981;
+&gt; 90&#9702;, то, переходя в средней части рис. 2 к углу, смежному c углом &#981;,
+мы видим, что формула (1) даёт длину синего отрезка со знаком минус (за счёт
+отрицательности косинуса), что нам как раз и нужно. Наконец, если &#981; = 90&#9702;,
+то формула (1) даёт <span class=SpellE>a<sub>x</sub></span> = 0, поскольку
+косинус прямого угла равен нулю. Именно так и должно быть (правая часть
+рисунка).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Предположим
+теперь, что на оси X задано вдобавок начало отсчёта, так что она является
+привычной координатной осью. Тогда имеем ещё одну формулу для проекции <span
+class=SpellE>a<sub>x</sub></span>, которая также содержит в «заархивированном»
+виде все три случая рисунка 2.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
+150%;font-family:"Times New Roman","serif"'>Следствие 2</span></b><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>.
+Пусть x<sub>1</sub> и x<sub>2</sub> — координаты соответственно начала и конца
+вектора </span><!--[if gte msEquation 12]><m:oMath><m:acc><m:accPr><m:chr m:val="&#8407;"/><span
+   style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+   font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+   font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:accPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e></m:acc></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:6.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image001.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=9 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image002.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>. Тогда проекция <span
+class=SpellE>a<sub>x</sub></span> вычисляется по формуле:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%;
+tab-stops:86.4pt'><!--[if gte msEquation 12]><m:oMath><m:sSub><m:sSubPr><span
+   style='font-size:12.0pt;mso-ansi-font-size:12.0pt;mso-bidi-font-size:12.0pt;
+   font-family:"Cambria Math","serif";mso-ascii-font-family:"Cambria Math";
+   mso-hansi-font-family:"Cambria Math";mso-bidi-font-family:"Times New Roman";
+   font-style:italic;mso-bidi-font-style:normal'><m:ctrlPr></m:ctrlPr></span></m:sSubPr><m:e><i
+   style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+   150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>a</m:r></span></i></m:e><m:sub><i
+   style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
+   line-height:150%;font-family:"Cambria Math","serif";mso-bidi-font-family:
+   "Times New Roman";mso-ansi-language:EN-US'><m:r>x</m:r></span></i></m:sub></m:sSub><i
+ style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;line-height:
+ 150%;font-family:"Cambria Math","serif";mso-bidi-font-family:"Times New Roman"'><m:r>
+  = </m:r><m:r>x</m:r><m:r><sub>2</sub></m:r><m:r> </m:r><m:r>-</m:r><m:r> </m:r><m:r>x</m:r><m:r><sub>1</sub></m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:78.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image015.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=105 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image016.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>. (2)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;page-break-after:avoid'><span
+style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif";
+mso-fareast-language:RU;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Рисунок_x0020_3"
+ o:spid="_x0000_i1025" type="#_x0000_t75" alt="рис 3" style='width:285pt;
+ height:2in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image013.png"
+  o:title="рис 3"/>
+</v:shape><![endif]--><![if !vml]><img width=380 height=192
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image017.jpg"
+alt="рис 3" v:shapes="Рисунок_x0020_3"><![endif]></span></p>
+
+<p class=MsoCaption align=center style='text-align:center'>Рис. <!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>SEQ Рис. \* ARABIC <span style='mso-element:
+field-separator'></span><![endif]--><span style='mso-no-proof:yes'>3</span><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%;tab-stops:86.4pt'><span
+style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman","serif"'>Действительно,
+посмотрим на рис. 3. Это случай положительной проекции. Напрашивается вывод,
+что разность </span><!--[if gte msEquation 12]><m:oMath><i style='mso-bidi-font-style:
+ normal'><span style='font-size:12.0pt;line-height:150%;font-family:"Cambria Math","serif";
+ mso-bidi-font-family:"Times New Roman"'><m:r>x</m:r><m:r><sub>2</sub></m:r><m:r>
+  </m:r><m:r>-</m:r><m:r> </m:r><m:r>x</m:r><m:r><sub>1</sub></m:r></span></i></m:oMath><![endif]--><![if !msEquation]><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;position:relative;top:5.5pt;mso-text-raise:-5.5pt;
+mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1025" type="#_x0000_t75" style='width:45.75pt;height:16.5pt'>
+ <v:imagedata src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image018.png"
+  o:title="" chromakey="white"/>
+</v:shape><![endif]--><![if !vml]><img width=61 height=22
+src="1)%20Что%20такое%20проекция%20вектора%20на%20ось.files/image019.png"
+v:shapes="_x0000_i1025"><![endif]></span><![endif]><sub><span style='font-size:
+12.0pt;line-height:150%;font-family:"Times New Roman","serif"'><span
+style='mso-spacerun:yes'> </span></span></sub><span style='font-size:12.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>равна длине выделенного
+отрезка, а эта длина в данном случае как раз и есть проекция <span
+class=SpellE>a<sub>x</sub></span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
